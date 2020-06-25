@@ -5,11 +5,18 @@ import com.desing.patterns.tests.*;
 public class Main {
 
     public static void main(String args[]){
-        ITest adapter = new AdapterImplement();
-        ITest brigde  = new BrigdeImplement();
 
+        //Imprimiendo la implementacion del adapter
+        ITest adapter = new AdapterImplement();
         adapter.test();
+
+        // Imprimiendo la implementacion del Brigde
+        ITest brigde  = new BrigdeImplement();
         brigde.test();
+
+        //Imprimiendo la implementacion del singleton
+        ITest singleton = new SingletonImplement();
+        singleton.test();
 
     }
 
