@@ -1,6 +1,5 @@
 package com.desing.patterns;
 
-import com.desing.patterns.structurals.*;
 import com.desing.patterns.tests.*;
 
 public class Main {
