@@ -18,6 +18,11 @@ public class Main {
         ITest singleton = new SingletonImplement();
         singleton.test();
 
+        //Imprimiendo la implementacion del Factory method
+        ITest factory = new FactoryMethodImplement();
+        factory.test();
+
+
     }
 
 }
