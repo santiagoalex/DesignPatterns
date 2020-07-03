@@ -22,6 +22,10 @@ public class Main {
         ITest factory = new FactoryMethodImplement();
         factory.test();
 
+        //Imprimiendo la implementacion del prototype
+        ITest prototype = new PrototypeImplement();
+        prototype.test();
+
 
     }
 

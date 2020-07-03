@@ -7,6 +7,9 @@ public class BrigdeImplement implements ITest{
 
     @Override
     public void test(){
+        System.out.println("--------------------------------------------");
+        System.out.println("                  BRIGDE                    ");
+        System.out.println("--------------------------------------------");
         MessageSender textMessageSender = new TextMessageSender();
         Message textMessage             = new TextMessage( textMessageSender );
         textMessage.send();

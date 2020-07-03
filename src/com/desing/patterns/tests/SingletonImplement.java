@@ -5,6 +5,9 @@ import com.desing.patterns.creationals.singleton.SingletonClass;
 public class SingletonImplement implements ITest {
      @Override
     public void test (){
+          System.out.println("--------------------------------------------");
+          System.out.println("                SINGLETON                   ");
+          System.out.println("--------------------------------------------");
          System.out.println( "Probando el patron singleton" );
 
          System.out.println( "Primera instancia" );

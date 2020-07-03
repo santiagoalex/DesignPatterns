@@ -7,6 +7,10 @@ public class AdapterImplement implements ITest {
 
     @Override
     public void test() {
+        System.out.println("--------------------------------------------");
+        System.out.println("                  ADAPTER                   ");
+        System.out.println("--------------------------------------------");
+
         String testString = " Formatting line of test 1. Formatting line of test 2. Formatting line of test  3.";
 
         TextFormattable newLineFormatter = new NewLineFormatter();
